@@ -11,14 +11,15 @@
     },
     "bin": "wifui.exe",
     "shortcuts": [["wifui.exe", "WifUI"]],
-    "checkver": {
-        "url": "https://github.com/sohamw03/wifui",
-        "regex": ""
-    },
+    "homepage": "https://github.com/sohamw03/wifui",
+    "checkver": "github",
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/sohamw03/wifui/releases/download/$version/wifui-x86_64-pc-windows-msvc.zip"
+                "url": "https://github.com/sohamw03/wifui/releases/download/$version/wifui-x86_64-pc-windows-msvc.zip",
+                "hash": {
+                    "url": "https://github.com/sohamw03/wifui/releases/download/0.3.0/wifui-x86_64-pc-windows-msvc.zip.sha256"
+                }
             }
         }
     }
