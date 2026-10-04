@@ -5,7 +5,7 @@
 ## Apps
 
 ### [WifUI](https://github.com/sohamw03/wifui)
-A lightweight, keyboard-driven Terminal User Interface (TUI) for managing Wi-Fi connections on Windows.
+A lightweight, keyboard-driven Terminal User Interface (TUI) for managing Wi-Fi connections on Linux/Windows.
 ```shell
 scoop bucket add sohamw03 https://github.com/sohamw03/Scoop-Bucket
 scoop install sohamw03/wifui
